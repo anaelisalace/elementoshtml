@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- HTML- raíz do documento -->
+<html lang="pt-br">
+
+
+<!-- CONFIGURAÇÕES -->
+<!-- HEAD- Coleção de metadados sobre o documento -->
+
+<head>
+    <!-- META: Metadados - conjunto de informações a respeito da página e do conteúdo nela publicado -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITLE- Define o título do documento -->
+    <title>Atividade prática Mentoria</title>
+
+    <!-- LINK- Referenciar documentos que são utilizados na página -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- BASE- Define a URL base para URL relativa na página -->
+    <base target="_blank">
+
+    <!-- SCRIPT- Define um caminho para incorporar ou referir-se ao código javascript (interno ou externo)-->
+    <script src="javascript.js"></script>
+
+    <!-- NOSCRIPT - NÃO ENTENDI -->
+    <!-- <noscript>
+        
+        <a href="https://www.mozilla.com/">External Link</a>
+    </noscript>
+    <p>Rocks!</p> 
+-->
+
+
+    <!-- ESTILO -->
+    <!--  STYLE- Usada para escrever CSS dentro do documento HTML -->
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 26px;
+            background-color: #D1E8E4
+        }
+
+        a {
+            target="_blank"
+        }
+    </style>
+
+</head>
+
+<!-- CORPO -->
+<!--BODY- Representa o conteúdo de um documento HTML (Só pode ter um <body> no documento) -->
+
+<body>
+
+    <!-- HEADER- Define o cabeçado da página ou seção -->
+    <header class="cabecalho">
+
+        <!-- IMAGEM LOGO -->
+        <!--FIGURE- Representa um conteúdo independente. A figura, sua legenda e seu conteúdo são referenciados como uma única unidade. -->
+        <!--IMG- Incorcora uma imagem no documento - ALT: define uma descrição de texto alternativa da imagem-->
+        <figure class="cabecalho__logo">
+            <img src="https://www.devparana.org/img/logo.svg" width="84" alt="Logo Dev Parana">
+            <figcaption hidden>Logo Dev Paraná</figcaption>
+        </figure>
+
+        <!-- TÍTULO-->
+        <!--HGROUP- Representa um título multinível para uma seção de um documento-->
+        <hgroup>
+            <h1> DevParaná</h1>
+            <h2>De pessoas, para pessoas;</h2>
+        </hgroup>
+
+        <!-- LISTA DE LINKS-->
+        <!-- NAV- Fornece links de navegação para dentro do documento ou para outros documentos-->
+        <nav class="navegacao">
+
+            <ul>
+                <li class="navegacao"><a href="#">GitHub</a></li>
+                <li class="navegacao"><a href="#">Facebook</a></li>
+                <li class="navegacao"><a href="#">Instagram</a></li>
+                <li class="navegacao"><a href="#">Twitter</a></li>
+                <li class="navegacao"><a href="#">Meetups</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL-->
+    <!-- MAIN- Define o conteúdo principal dentro do body (não pode ser filho dos elementos <article>, <aside>, <footer>, <header>, ou <nav>) -->
+    <main class="corpo">
+
+        <!--SECTION- Divide o conteúdo em diferentes seções-->
+        <section>
+
+            <h3>Bem vindo ao DevParaná.</h3>
+
+            <!--P- Representa um parágrafo-->
+            <p>A ideia deste movimento é dar o empurrão que faltava para muito dos desenvolvedores paranaenses começar a
+                compartilhar conhecimentos, através de MeetUps, Coding Dojo, Conferências e tudo mais que pudermos
+                fazer.
+
+                Nossa iniciativa, é para auxiliar nas comunidades e movimentos nas suas ações, não competindo com os
+                mesmos. </p>
+
+        </section>
+
+        <section>
+
+            <h3> DevParaná Conference 2020 </h3>
+
+            <!--A- Cria um hiperlink para qualquer coisa que um URL possa endereçar-->
+            <a href="https://www.youtube.com/watch?v=BcIZfjkZGrs">
+                <img src="https://www.devparana.org/img/conf-2020.png" width="600" alt="Conference Dev Paraná">
+                <figcaption hidden>Conference Dev Paraná</figcaption>
+            </a>
+
+
+            <!--ASIDE- Serve para mostrar conteúdos que fazem referência ao conteúdo principal-->
+            <aside>
+                <p>A DevParaná Conference já é sinonimo de grande festa e crescimento na comunidade de desenvolvimento;
+                    Todos os anos nos empenhamos para trazer conteúdo de qualidade, mantendo a comunidade sempre próxima
+                    e ativa, e 2020 não será diferente. Com um formato diferente do habitual, vamos ter 16 talks com
+                    grande conteúdo, e com a sinergia de todos os grupos de meetup afiliados do DevParaná!</p>
+            </aside>
+
+        </section>
+
+        <section>
+
+            <!-- ARTICLE- Representa uma composição independente do documento -->
+            <article>
+
+                <!--BLOCKQUOTE- Indica que o texto é uma citação estendida-->
+                <blockquote class="twitter-tweet">
+                    <p lang="pt" dir="ltr">É com imensa satisfação que contamos com essa ilustre figura neste ano em
+                        nossa conferência anual.<br><br>Autor de Clean Code, Clean Architecture, Clean Agile, é um ícone
+                        da comunidade de desenvolvimento de software, métodos ágeis, atuando na área desde
+                        1970<br><br>18 a 20 de novembro<br><br>paz✌️ <a
+                            href="https://t.co/F6JJuQ5QTp">pic.twitter.com/F6JJuQ5QTp</a></p>&mdash; Dev Paraná
+                    (@devparana) <a
+                        href="https://twitter.com/devparana/status/1440489968686616579?ref_src=twsrc%5Etfw">September
+                        22, 2021</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </article>
+
+            <h3>DevParaná - Como participar</h3>
+            <p>Estamos tomando decisões em conjunto no Slack criado para o Dev Paraná, para fazer parte <a
+                    href="https://slack.devparana.org/">acesse aqui.</a> </p>
+
+        </section>
+        <section>
+
+            <h3>Conduta</h3>
+            <p>Construção coletiva do manual de conduta do Dev Paraná, estamos abertos a receber propostas de alteração
+                e adições neste manual. </p>
+
+            <!--HR- Representa uma quebra de texto temática -->
+            <hr>
+            <h4>Como contribuir</h4>
+            <p>Faça a alteração desejada e abra um pull request para o repositório principal. Discussões sobre a
+                alteração / proposta serão discutidas nos comentários do pull request, desta forma se tornam públicos e
+                documentados.</p>
+            <hr>
+            <h4>Versão simplificada</h4>
+            <p>O Dev Paraná é uma comunidade dedicada a oferecer um ambiente livre de assédio para todos,
+                independentemente do sexo, identidade de gênero e expressão, idade, orientação sexual, deficiência,
+                aparência física, tamanho corporal, cor de pele, etnia, religião (ou falta dela) ou escolhas de
+                tecnologias.
+
+                Nós não toleramos o assédio aos participantes da comunidade, sob qualquer forma.
+
+                Linguagem e imagens sexuais não são apropriadas em nenhum espaço, incluindo palestras, workshops,
+                festas, canais do Slack, discussões do Meetup e outras mídias on-line. Os participantes que violarem
+                essas regras poderão ser expulsos e banidos do Slack e do Meetup do Dev Paraná. A punição pode ir desde
+                a expulsão do membro, até ser banido de eventos futuros promovidos pelo Dev Paraná.</p>
+        </section>
+    </main>
+
+    <!-- RODAPÉ-->
+    <!--FOOTER- Representa o rodapé do documento ou de uma seção específica-->
+    <footer class="corpo">
+        <p><a href="href=" https://github.com/DeveloperParana/devparana.github.io">devparana.org</a> is maintained by <a
+                href="https://github.com/DeveloperParana">DeveloperParana.</a>
+
+            <!--BR- Representa uma quebra de linha -->
+            <br>
+            This page was generated by <a href="https://pages.github.com/">GitHub Pages</a> using the Cayman theme by <a
+                href="https://twitter.com/jasonlong">Jason Long.</a>
+        </p>
+
+    </footer>
+</body>
+
+</html>
